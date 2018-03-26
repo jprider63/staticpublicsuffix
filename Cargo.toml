@@ -1,6 +1,9 @@
 [package]
 name = "staticpublicsuffix"
 version = "0.1.0"
+description = "A lazy static list for the publicsuffix crate"
+license = "MIT"
+repository = "https://github.com/jprider63/staticpublicsuffix"
 authors = ["James Parker <dev@jamesparker.me>"]
 
 [dependencies]
