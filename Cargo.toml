@@ -5,4 +5,4 @@ authors = ["James Parker <dev@jamesparker.me>"]
 
 [dependencies]
 lazy_static = "*"
-publicsuffix = "*"
+publicsuffix = "^1.5.0"

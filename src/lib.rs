@@ -5,7 +5,7 @@ extern crate publicsuffix;
 use publicsuffix::List;
 
 lazy_static! {
-    pub static ref STATIC_SUFFIX_LIST : List = List::from_string( include_str!("../data/public_suffix_list.dat").to_string()).unwrap();
+    pub static ref STATIC_SUFFIX_LIST : List = List::from_str( include_str!("../data/public_suffix_list.dat")).unwrap();
 }
 
 #[test]
